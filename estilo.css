@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(9, 11, 145);;
+    color: white;
+    font-family:Tahoma;
+    padding: 2rem;
+}
+
+footer{
+    background-color: rgb(9, 11, 145);;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer{
+    list-style: none;
+    margin-top: 2rem;
+}
+
+nav{
+    background-color: rgb(9, 11, 145);;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 1rem;
+}
+
+li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    transition: color 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+li a:hover{
+    background-color: beige;
+}
+
+.container{
+    width: 70vw;
+    margin: auto;
+    border: 2px solid rgb(9, 11, 145);
+    padding: 0,5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container h2{
+    background-color: rgb(9, 11, 145);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.container input{
+    border-radius: 1rem;
+    width: 65vw;
+}
+li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    transition: color 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+li a:hover{
+    background-color: beige;
+}
+
+.container{
+    width: 70vw;
+    margin: auto;
+    border: 2px solid rgb(9, 11, 145);
+    padding: 0,5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container h2{
+    background-color: rgb(9, 11, 145);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.container input{
+    border-radius: 1rem;
+    text-align: center;
+    width: 65vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 2px solid rgb(9, 11, 145);
+}
+
+.list table{
+    width: 100%;
+    text-align: center;
+
+}
+
+.list table th{
+    background-color:  rgb(9, 11, 145);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.list table td{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 2px;
+    border: 2px solid rgb(9, 11, 145);
+    border-radius: 5px;
+}
