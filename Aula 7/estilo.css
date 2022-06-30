@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background-image: linear-gradient(45deg,rgb(0, 0, 0),rgb(29, 28, 28));
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+header h2{
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: rgb(153, 27, 27);
+    padding: 40px;
+}
+
+footer li{
+    color: rgb(255, 255, 255);
+}
+
+.div-product{
+    margin: auto;
+    width: 60%;
+}
+
+.div-product img{
+    width: 100%;
+}
+.container{
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid  rgb(148, 0, 0);
+    border-bottom: 15px;
+}
+
+.div-title{
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 15px;
+}
+
+.div-title h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.div-question{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.div-question label{
+    text-align: center;
+    font-weight: 40px;
+}
+
+.div-options{
+    margin-top: 8px;
+    display: flex;
+    font-size: small;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.div-options label{
+    margin-right: 5px;
+}
+
+.div-options buton{
+    width: 100%;
+    background-color: rgb(255, 28, 28);
+    color: bisque;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.div-options button:hover{
+    background-color: bisque;
+    color: brown;
+}
+
+@media screen and (max-width:650px){
+    .div-options{
+        display: block;
+    }
+    .div-options label{
+        margin-right: 0px;
+    }
+
+}
+ion-icon
+{
+     color: rgb(0, 110, 255);
+     font-size: 1.5em;   
+}
+label
+{
+    font-size: 2em;
+    color: #fff;
+}
