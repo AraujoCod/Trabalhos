@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado do Gerônimo</title>
+    <link rel="stylesheet" href="case.css">
+</head>
+<body>
+    <header>
+        <h2>Produtos</h2>
+    </header>
+
+    <div class="container">
+        <h3>Comidas</h3>
+        <div class="div-produtos">
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Shampoo')">
+            <label>Shampoo</label>
+            <br>
+            <input type="radio" name="frutas"
+              onclick="selecionarProdutos('Banana')">
+            <label>Banana</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Pacote de Feijão')">
+            <label>Pacote de Feijão</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Sal')">
+            <label>Sal</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Camiseta do Inter')">
+            <label>Camiseta do Inter</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Sabão')">
+            <label>Sabão</label>
+            <br>
+        </div>
+        <div class="div-resultado">
+            <label>Resultado</label>
+            <br>
+            <label id="resultado"></label>
+        </div>
+    </div>
+    
+
+    <footer>
+        <ul>
+            <li>Mercado do Gerônimo</li>
+            <li>Os melhores produtos você encontra aqui</li>
+        </ul>
+    </footer>
+
+    <script src="case.js"></script> 
+</body>
+</html>
