@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+            background: url("https://blog.nubank.com.br/wp-content/uploads/2022/01/Nubank-Hype-Games-igor-karimov-unsplash-HEADER.jpg");
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-size: 100%;
+ }
+        header {
+        padding: 20px;
+        font-size: 50px;
+}
+header > h2{
+ color:rgb(255, 255, 255);
+ font-family: Arial, Helvetica, sans-serif;
+ color: #ffffff;
+ text-align: center;
+
+}
+.container{
+
+background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius: 15px;
+margin: auto;
+text-align: center;
+margin-top: 16px;
+padding: 16px;
+width: 60%;
+font-size: 25px;
+
+
+}
+.outside{
+ width: 30%;
+ height: 100px;
+ background-color: rgb(255, 255, 255);
+ border-radius: 20px;
+ margin: auto;
+ margin-top: 20px;
+ padding: 8px;
+ border: 2px solid;
+ position: static;
+ display: table;
+ }
+ .inside {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin: auto;
+ display: table-cell;
+ vertical-align: middle;
+ text-align: center;
+ }
+
+.inside > p {
+ font-size: 20px;
+ }
+ .inside > select {
+ font-size: 15px;
+ }
+ .inside > button {
+ background-color: #a30000; 
+ border: 2px solid rgb(0, 0, 0);
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ }
+ .inside > button:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ cursor: pointer;
+ }
+ .inside > button:active {
+ box-shadow: none;
+ cursor: pointer;
+ }
+</style>
+</head>
+<body>
+<header>
+ <h2> Quiz<br> Mundo dos Games Quizz</h2>
+</header>
+<div class="container">
+<h4> Em que ano Fortnite foi criado ? </h4>
+<p> Selecione uma resposta : <br><br>
+<select id="r1">
+    <option value="ㅤ">ㅤ</option>
+    <option value="2014">2014</option>
+    <option value="2013">2013</option>
+    <option value="2011">2011</option>
+    <option value="2010">2010</option>
+</select></p>
+
+</div>
+
+<div class="container">
+ <h4> Quantas vendas teve o GTA SA (vendas autorais) </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r2">
+    <option value="ㅤ">ㅤ</option>
+    <option value="20,543 Milhoes">20,543 Milhoes</option>
+    <option value="27,5 Milhoes">27,5 Milhoes</option>
+    <option value="28,2 Milhoes"> 28,2 Milhoes</option>
+    <option value="30,654 Milhoes">30,654 Milhoes</option>
+
+ </select></p>
+ 
+ </div>
+ <div class="container">
+ <h4> Qual GTA mais vendeu copias ? :<br><br>
+ <select id="r3">
+    <option value="ㅤ">ㅤ</option>
+    <option value="GTA San Andreas">GTA San Andreas</option>
+    <option value="GTA Vice City">GTA Vice City</option>
+    <option value="GTA 5">GTA 5</option>
+    <option value="GTA 3">GTA 3</option>
+
+ </select></p>
+
+ </div>
+ <div class="container">
+ <h4> Qual nome do protagonista do jogo Bully (Rockstar):<br><br>
+ <select id="r4">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Jimmy">Jimmy</option>
+    <option value="Billy">billy</option>
+    <option value="Garry">Garry</option>
+    <option value="Pablo">Pablo</option>
+ </select></p>
+
+ </div>
+ 
+ <div class="container">
+ <h4> Qual Record de SpeedRun do Resident Evil 4 ? :<br><br>
+ <select id="r5">
+    <option value="ㅤ">ㅤ</option>
+    <option value="1H 19M 05s 710"> 1h 19m 05s 710s </option>
+    <option value="1h 20m 00s 310"> 1h 20m 00s 310s </option>
+    <option value="1h 20m 06s 670ms"> 1h 20m 06s 670ms </option>
+    <option value="1h 20m 00s 720ms	"> 1h 20m 00s 720ms	</option>
+
+ </select></p>
+
+ </div>
+ <div class="container">
+ <h4> Quantas horas tem de duraçao Outlast 2 ?</h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r6">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Entre 6 a 7 horas">Entre 6 a 7 horas</option>
+    <option value="Entre 10 a 11">Entre 10 a 11</option>
+    <option value="Entre 8 a 9 horas">Entre 8 a 9 horas</option>
+    <option value="Entre 9 a 10 horas">Entre 9 a 10 horas</option>
+ </select></p>
+
+ </div>
+ <div class="container">
+ <h4> Onde se passa The Last Of Us ? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r7">
+    <option value="ㅤ">ㅤ</option>
+    <option value=" Bullworth"> Bullworth</option>
+    <option value="Seattle">Seattle</option>
+    <option value="Bahia">Bahia</option>
+    <option value="Miles Upshur">Miles Upshur</option>
+
+ </select></p>
+
+ </div>
+ 
+ <div class="container">
+ <h4> Desde que ano FIFA foi lançado ?</h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r8">
+    <option value="ㅤ">ㅤ</option>
+    <option value="1994">1994</option>
+    <option value="1993">1993</option>
+    <option value="1998">1998</option>
+    <option value="1996">1996</option>
+
+ </select></p>
+
+ </div>
+ <div class="container">
+ <h4>Qual jogo teve mais polemica no seu lançamento ? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r9">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Postal 4"> Postal 4 </option>
+    <option value="Skate 3 "> Skate 3 </option>
+    <option value="Bully"> Bully </option>
+    <option value="Gta San Andreas"> Gta San Andreas -</option>
+
+ </select></p>
+
+ </div>
+ <div class="container">
+ <h4> Qual a Profissao do Mario da serie Super Mario ? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r10">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Guarda de transito">Guarda de transito</option>
+    <option value="Barbeiro">Barbeiro</option>
+    <option value="Zelador">Zelador</option>
+    <option value="Mecanico">Mecanico</option>
+
+    </select></p>
+
+     </div>
+ <div class="container">
+ <h4> Qual o técnico mais vezes vencedor do campeonato brasileiro? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r11">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Tite">Tite</option>
+    <option value="Abel Braga">Abel Braga</option>
+    <option value="Muricy Ramalho">Muricy Ramalho</option>
+    <option value="Vanderlei Luxemburgo">Vanderlei Luxemburgo</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4> Qual jogador fez mais gols numa mesma edição de campeonato brasileiro? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r12">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Gabriel Barbosa">Gabriel Barbosa</option>
+    <option value="Edmundo">Edmundo</option>
+    <option value="Washington">Washington</option>
+    <option value="Fred">Fred</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4> Qual jogador com maior número de gols em uma única partida? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r13">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Edmundo">Edmundo</option>
+    <option value="Ronaldo">Ronaldo</option>
+    <option value="Neymar">Neymar</option>
+    <option value="Dodô">Dodô</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4> Qual jogador mais velho a disputar uma partida do Brasileirão? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r14">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Durval">Durval</option>
+    <option value="Magrão">Magrão</option>
+    <option value="Chicão">Chicão</option>
+    <option value="Zé Roberto">Zé Roberto</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4> O jogo entre Goiás e Cruzeiro foi o jogo com mais expulsões da história do campeonato brasileiro, quantos cartões vermelhos foram recebidos? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r15">
+    <option value="ㅤ">ㅤ</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="12">12</option>
+    <option value="11">11</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4> Qual o time que mais vezes ganhou a Copa do Brasil? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r16">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Grêmio">Grêmio</option>
+    <option value="Cruzeiro">Cruzeiro</option>
+    <option value="Flamengo">Flamengo</option>
+    <option value="Vasco">Vasco</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4> O gol mais rápido da história do campeonato brasileiro foi marcado por Nivaldo jogador do Náutico na vitória sobre o Atlético Mineiro na vitória de 3x2, com quantos segundos foi marcado o gol? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r17">
+    <option value="ㅤ">ㅤ</option>
+    <option value="8 seg">8 seg</option>
+    <option value="11 seg">11 seg</option>
+    <option value="10 seg">10 seg</option>
+    <option value="9 seg">9 seg</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4> Em qual ano foi implementado o atual sistema de pontos corridos no campeonato brasileiro, tendo jogos ida e volta? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r18">
+    <option value="ㅤ">ㅤ</option>
+    <option value="2003">2003</option>
+    <option value="2000">2000</option>
+    <option value="2002">2002</option>
+    <option value="2005">2005</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4> Qual jogador estrangeiro fez mais gols por times brasileiros? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r19">
+    <option value="ㅤ">ㅤ</option>
+    <option value="Henry Welfare">Henry Welfare</option>
+    <option value="Paolo Guerrero">Paolo Guerrero</option>
+    <option value="Marcelo Moreno">Marcelo Moreno</option>
+    <option value="Petković">Petković</option>
+
+      </select></p>
+
+     </div>
+ <div class="container">
+ <h4>A edição do campeonato CDB de 1978 foi a edição que mais vezes balançaram as redes, quantos gols foram feitos nessa edição? </h4>
+ <p>Selecione uma resposta :<br><br>
+ <select id="r20">
+    <option value="ㅤ">ㅤ</option>
+    <option value="1771">1771</option>
+    <option value="1758">1758</option>
+    <option value="1744">1744</option>
+    <option value="1726">1726</option>
+
+
+ </select></p>
+
+ </div>
+ </div>
+ <div class="outside">
+ <div class="inside">
+ <h1>Sua Pontuação :</h1>
+ <button id="fim" onclick="setPontos()">Ver pontuação</button>
+ <h3 id="pontuação"></h3>
+ </div>
+ </div>
+
+<footer>
+ <script>
+ 
+ let question1 = document.querySelector("#r1")
+ let question2 = document.querySelector("#r2")
+ let question3 = document.querySelector("#r3")
+ let question4 = document.querySelector("#r4")
+ let question5 = document.querySelector("#r5")
+ let question6 = document.querySelector("#r6")
+ let question7 = document.querySelector("#r7")
+ let question8 = document.querySelector("#r8")
+ let question9 = document.querySelector("#r9")
+ let question10 = document.querySelector("#r10")
+ let question11 = document.querySelector("#r11")
+ let question12 = document.querySelector("#r12")
+ let question13 = document.querySelector("#r13")
+ let question14 = document.querySelector("#r14")
+ let question15 = document.querySelector("#r15")
+ let question16 = document.querySelector("#r16")
+ let question17 = document.querySelector("#r17")
+ let question18 = document.querySelector("#r18")
+ let question19 = document.querySelector("#r19")
+ let question20 = document.querySelector("#r20")
+ var paragrafo = document.querySelector("#pontuação")
+ let nome = sessionStorage.getItem('nome')
+
+ function setPontos(){
+ let resposta1 = question1.value
+ let resposta2 = question2.value
+ let resposta3 = question3.value
+ let resposta4 = question4.value
+ let resposta5 = question5.value
+ let resposta6 = question6.value
+ let resposta7 = question7.value
+ let resposta8 = question8.value
+ let resposta9 = question9.value
+ let resposta10 = question10.value
+ let resposta11 = question11.value
+ let resposta12 = question12.value
+ let resposta13 = question13.value
+ let resposta14 = question14.value
+ let resposta15 = question15.value
+ let resposta16 = question16.value
+ let resposta17 = question17.value
+ let resposta18 = question18.value
+ let resposta19 = question19.value
+ let resposta20 = question20.value
+ let pontos = 0
+ let frase = ""
+
+ if (resposta1 === "2011") {
+ pontos++
+ }
+ if (resposta2 === "27,5 Milhoes") {
+ pontos++
+ }
+ if (resposta3 === "GTA 5") {
+ pontos++
+ }
+ if (resposta4 === "Internacional") {
+ pontos++
+ }
+ if (resposta5 === "Palmeiras") {
+ pontos++
+ }
+ if (resposta6 === "Dalessandro") {
+ pontos++
+ }
+ if (resposta7 === "Sport") {
+ pontos++
+ }
+ if (resposta8 === "Coritiba") {
+ pontos++
+ }
+ if (resposta9 === "Internacional") {
+ pontos++
+ }
+ if (resposta10 === "1959") {
+ pontos++
+ }
+ if (resposta11 === "Vanderlei Luxemburgo") {
+ pontos++
+ }
+  if (resposta12 === "Washington") {
+ pontos++
+  }
+  if (resposta13 === "Edmundo") {
+ pontos++
+  }
+  if (resposta14 === "Zé Roberto") {
+ pontos++
+  }
+  if (resposta15 === "14") {
+ pontos++
+  }
+  if (resposta16 === "Cruzeiro") {
+ pontos++
+  }
+  if (resposta17 === "8 seg") {
+ pontos++
+  }
+  if (resposta18 === "2003") {
+ pontos++
+  }
+ if (resposta19 === "Petković") {
+ pontos++
+ }
+ if (resposta20 === "1771") {
+ pontos++
+            }
+            if (pontos === 0) {
+                frase = "Noob d+!"
+            }
+            else if (pontos === 1) {
+                frase = "Noob d+!"
+            }
+            else if (pontos === 2) {
+                frase = "Sabe de nada!"
+            }
+            else if (pontos === 3) {
+                frase = "Sabe de nada"
+            }
+            else if (pontos === 4) {
+                frase = "ta ruim em"
+            }
+            else if (pontos === 5) {
+                frase = "ta ruim em"
+            }
+            else if (pontos === 6) {
+                frase = "Iniciante no mundo"
+            }
+            else if (pontos === 7) {
+                frase = "iniciante no mundo"
+            }
+            else if (pontos === 8) {
+                frase = "ta melhorando"
+            }
+            else if (pontos === 9) {
+                frase = "bom mais ainda falta muito "
+            }                
+            else if (pontos === 10) {
+                frase = "bom mais ainda falta muito"
+            }
+            else if (pontos === 11) {
+                frase = "bom mais ainda falta muito"
+            }
+            else if (pontos === 12) {
+                frase = "bom!"
+            }
+            else if (pontos === 13) {
+                frase = "bom!"
+            }
+            else if (pontos === 14) {
+                frase = "Melhor que muitos!"
+            }
+            else if (pontos === 15) {
+                frase = "Ótimo!"
+            }
+            else if (pontos === 16) {
+                frase = "Ótimo!"
+            }
+            else if (pontos === 17) {
+                frase = "sera um DEUS ?!"
+            }
+            else if (pontos === 18) {
+                frase = "MUITO BOMMMM"
+            }
+            else if (pontos === 19) {
+                frase = "Um verdadeiro Deus!"
+            }
+            else if (pontos === 20) {
+                frase = "Perfeitoooo muito bem"
+
+                }
+ 
+ paragrafo.innerText =  nome + pontos +"/20\n" + frase
+ }
+ 
+ </script>
+
+</body>
+</html>
