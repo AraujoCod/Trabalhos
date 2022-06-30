@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerenciamento do Mano Ge</title>
+    <link rel="stylesheet" href="./estilo.css">
+
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Usuário</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="usuario.html">Usuarios</a></li>
+            <li><a href="List.html">Lista de Usuário</a>
+        </ul>
+    </nav>
+    <div class="container"> 
+        <h2>Novo Usuário</h2>
+
+        <div class="div-erro">
+            Preencha o formulario corretamente!
+        </div>
+        <div class="form">
+            <input type="text" id="nome" placeholder="Nome do Usuário">
+            <input type="email" id="email" placeholder="Email do Usuário">
+            <input type="password" id="senha" placeholder="Senha do Usuário">
+            <input type="password" id="confirm" placeholder="Confirmar senha do Usuário">
+            <button type="button" onclick="addUsuario()">Enviar</button>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>SESI SENAI</li>
+            <li>Gerônimo Araujo</li>
+            <li>Florianopolis</li>  
+        </ul>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
