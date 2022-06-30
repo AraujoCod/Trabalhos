@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <style>
+        body {
+    background-color:rgb(255, 255, 255);
+    background: url("https://p4.wallpaperbetter.com/wallpaper/738/111/812/computer-game-gamer-gaming-wallpaper-preview.jpg");
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100%;
+     
+   
+
+}
+header {
+background-color:rgb(16, 106, 190);
+padding: 20px;
+font-size: 30px;
+}
+header > h2{
+    color:rgb(255, 255, 255);
+            font-family: Georgia, "Times New Roman", serif;
+            color: #ffffff;
+    text-align: center;
+
+}
+.container{
+
+background-color:  rgb(255, 255, 255);
+border: 2px solid black;
+border-radius: 15px;
+margin: auto;
+color: #000000;
+text-align: center;
+margin-top: 16px;
+padding: 16px;
+width: 60%;
+font-size: 20px;
+
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Insira seu Nome :</h1>
+    <input type="text" placeholder="Nome" id="nome">
+    <br><br>
+    <a href="codigos.html" id="jogar"><button>Enviar</button></a>
+</div>
+<script>
+    let input = document.getElementById("nome")
+    let btn = document.getElementById("jogar")
+
+    btn.addEventListener('click', () => {
+        sessionStorage.setItem('nome', input.value)
+    })
+</script>
+</html>
