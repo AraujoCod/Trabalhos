@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado do Rafael</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h2>Comidas Brasileiras</h2>
+    </header>
+
+    <div class="container">
+        <h3>Comidas de cada região</h3>
+        <div class="div-produtos">
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Arroz Carreteiro')">
+            <label>Arroz Carreteiro</label>
+            <br>
+            <input type="radio" name="frutas"
+              onclick="selecionarProdutos('Tacacá')">
+            <label>Tacacá</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Pizza')">
+            <label>Pizza</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Baião de Dois')">
+            <label>Baião de Dois</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Mujica de Peixe')">
+            <label>Mujica de Peixe</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Arroz com Pequi')">
+            <label>Arroz com Pequi</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Pão de Queijo')">
+            <label>Pão de Queijo</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Parrillada')">
+            <label>Parrillada</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Wurst')">
+            <label>Wurst </label>
+            <br>
+
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Lámen')">
+            <label>Lámen</label>
+
+        </div>
+        <div class="div-resultado">
+            <label>Resultado</label>
+            <br>
+            <label id="resultado"></label>
+        </div>
+    </div>
+    
+
+    <footer>
+        <ul>
+            <li>Mercado do David</li>
+            <li>Só pratos com a melhor qualidade</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

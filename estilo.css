@@ -1,141 +1,45 @@
 body{
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
 
 header{
-    background-color: rgb(9, 11, 145);;
-    color: white;
-    font-family:Tahoma;
-    padding: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 158, 18);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 footer{
-    background-color: rgb(9, 11, 145);;
-    color: white;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
+    background-color: rgb(219, 198, 8);
+    padding: 25px;
+    color: rgb(255, 255, 255);
 
-footer{
-    list-style: none;
-    margin-top: 2rem;
 }
-
-nav{
-    background-color: rgb(9, 11, 145);;
-    padding: 1rem;
-    margin-bottom: 4rem;
-}
-nav ul{
-    display: flex;
-}
-nav li{
-    list-style: none;
-    padding: 1rem;
-}
-
-li a{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-li a{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: large;
-    transition: color 0.2s;
-    padding: 1rem;
-    border-radius: 1rem;
-}
-
-li a:hover{
-    background-color: beige;
-}
-
 .container{
-    width: 70vw;
     margin: auto;
-    border: 2px solid rgb(9, 11, 145);
-    padding: 0,5rem;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-}
-
-.container h2{
-    background-color: rgb(9, 11, 145);
-    color: white;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 1rem;
-}
-
-.container input{
-    border-radius: 1rem;
-    width: 65vw;
-}
-li a{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: large;
-    transition: color 0.2s;
-    padding: 1rem;
-    border-radius: 1rem;
-}
-
-li a:hover{
-    background-color: beige;
-}
-
-.container{
-    width: 70vw;
-    margin: auto;
-    border: 2px solid rgb(9, 11, 145);
-    padding: 0,5rem;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-}
-
-.container h2{
-    background-color: rgb(9, 11, 145);
-    color: white;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 1rem;
-}
-
-.container input{
-    border-radius: 1rem;
-    text-align: center;
-    width: 65vw;
-    padding: 1rem;
-    border-radius: 1rem;
-    outline: none;
-    border: 2px solid rgb(9, 11, 145);
-}
-
-.list table{
-    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 16px;
     text-align: center;
 
 }
-
-.list table th{
-    background-color:  rgb(9, 11, 145);
-    padding: 1rem;
-    text-align: center;
-    color: white;
-    border-radius: 5px;
+.div-produtos{
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 8px;
+    text-align: unset;
 }
 
-.list table td{
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin: 2px;
-    border: 2px solid rgb(9, 11, 145);
-    border-radius: 5px;
+.div-resultado{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 8px;
 }
