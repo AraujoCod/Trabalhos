@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadinho do Mano Ge</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h2>Comidas pelo mundo</h2>
+    </header>
+
+    <div class="container">
+        <h3>Comidas de cada região</h3>
+        <div class="div-produtos">
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Churrasco')">
+            <label>Churrasco</label>
+            <br>
+            <input type="radio" name="frutas"
+              onclick="selecionarProdutos('Tapióca')">
+            <label>Tapióca</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Escondidinho')">
+            <label>Escondidinho</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Cuscus')">
+            <label>Cuscus</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Ostra')">
+            <label>Ostra</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Feijoada')">
+            <label>Feijoada</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Pão de Queijo')">
+            <label>Pão de Queijo</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Pancho')">
+            <label>Pancho</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos(' Salsichão')">
+            <label>Salsichão </label>
+            <br>
+
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Sushi')">
+            <label>Sushi</label>
+
+        </div>
+        <div class="div-resultado">
+            <label>Resultado</label>
+            <br>
+            <label id="resultado"></label>
+        </div>
+    </div>
+    
+
+    <footer>
+        <ul>
+            <li>Mercadinho do Mano Ge</li>
+            <li>Os melhores pratos na opnião do Gerônimo </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
