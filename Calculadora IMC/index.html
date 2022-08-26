@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora IMC</h1>
+        
+        <div class="form">
+            <label for="">Peso da pessoa</label><br>
+            <input type="text" id="txtPeso" placeholder="ex: 70.2"><br><br>
+            <label for="">Altura da pessoa</label><br>
+            <input type="text" id="txtAltura" placeholder="ex: 1.7"><br>
+            <input type="submit" value="Calcular" class="calcular" onclick="calcular()">
+        </div>
+        <p id="resultado">.</p>
+        <div class="categorias">
+            <div id="Magro">Magro</div>
+            <div id="Peso Ideal">Peso Ideal</div>
+            <div id="Acima do peso">Acima do peso</div>
+            <div id="Obesidade">Obesidade</div>
+            <div id="Obesidadegrave">Obesidade Aguda</div>
+        </div>
+    </div>
+    <div class="container body-content">
+     
+    </div>
+    <footer class="fixar-rodape">
+        <p>&copy;Santa Catarina, Florianópolis, SESI Senai. Gerônimo de Araujo Franco da turma 2A</p>
+    </footer>
+</body>
+</html>
