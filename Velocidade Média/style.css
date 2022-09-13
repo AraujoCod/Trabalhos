@@ -1,0 +1,40 @@
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}       
+footer {
+    font: 1em sans-serif;
+    position: absolute;
+    bottom: 0;
+    background-color: antiquewhite;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    height: 100px;    
+    line-height: 2px;
+    font-size: 15px;
+}
+.header {
+    background-color: antiquewhite;
+    color: rgb(255, 0, 0);
+    font: 1em sans-serif;
+    padding: 15px;
+}
+nav {
+    padding: 10px;
+    background-color: rgb(201, 200, 199);
+}
+nav ul {
+    list-style: none;
+    display: flex;  
+}
+nav ul li {
+    margin-left: 8px;
+}
+li a {
+    text-decoration: none;
+    color: chocolate;
+}
