@@ -1,40 +1,63 @@
-html, body {
-    min-height: 100%;
-}
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Verdana;
-}       
-footer {
-    font: 1em sans-serif;
-    position: absolute;
-    bottom: 0;
-    background-color: antiquewhite;
-    color: rgb(255, 0, 0);
-    width: 100%;
-    height: 100px;    
-    line-height: 2px;
-    font-size: 15px;
-}
-.header {
-    background-color: antiquewhite;
-    color: rgb(255, 0, 0);
-    font: 1em sans-serif;
-    padding: 15px;
-}
-nav {
-    padding: 10px;
-    background-color: rgb(201, 200, 199);
-}
-nav ul {
-    list-style: none;
-    display: flex;  
-}
-nav ul li {
-    margin-left: 8px;
-}
-li a {
-    text-decoration: none;
-    color: chocolate;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <link href="bootstrap-5.2.1-dist/css/bootstrap-grid.min.css" rel="stylesheet">
+    <title>Exercício de Fixação</title>
+</head>
+<body>      
+<header>
+    <div class="header">
+        <h1>Velocidade Média</h1>
+    </div>
+</header>
+<nav>
+  <div class="nav"> 
+  <ul>
+        <li><a href="">Home </a></li>
+        <li><a href="">Sobre</a></li>
+  </ul>
+    </div>
+</nav>
+<br>
+<div class="container">
+  <div class="primeiraCaixa">
+     <form>
+      <h4>Calculadora</h4>
+      <input type="number" name="Caixa para valor" size="30" placeholder="Valor de Deloscamento" id="Valor de Deloscamento"/> 
+        <br>
+        <input type="number" name="Caixa para valor" size="30" placeholder="Valor de Tempo" id="Valor de Tempo"/> 
+        <div>
+          <INPUT type="reset"  name="b2" value="Limpar">
+          <INPUT type="submit" name="b1" value="Cálcular" id="b1">
+      </div>
+        <p>
+          ⠀⠀
+         </p>
+     </form>
+</div> 
+      <div class="segundaCaixa">
+          <h4>Resultado</h4>
+                       <form>
+                           <input type="number" name="resultado" readonly size="30" placeholder="Resultado" id="Cálcular"/> 
+                           <p>
+                            ⠀⠀
+                           </p>
+                       </form>
+         </div>     
+        </div>
+<div>
+      <footer>
+        <h5>SESI Senai Florianópolis</h5>
+        <p>Curso Desenvolvimento de Sistemas</p>
+        <p>Lógica de Programação</p>
+        <p>Gerônimo de Araujo Franco</p>
+      </footer>
+</div>
+</script>
+
+</body>
+</html>
