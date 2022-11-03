@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Aprendendo JS</title>
+</head>
+<body>
+    <h1>Aprendendo JavaScript</h1>
+    <p>Crei esse site para meu prendizado em JavaScript</p>
+    <script>
+window.alert('Bem Vindo ao meu site de aprendendo JS !! ') //criar uma mensagem de alerta na tela 
+window.confirm('Está gostando de JavaScript ? ') //criar uma tabela de escolha entre 'Ok' e 'Cancel
+    var nome = window.prompt('Qual seu nome ? ') //criar uma caixa de texto para o usuario
+window.alert('É um grande prazer em te conhecer, ' + nome ,  '!' )
+        document.write('Pelo que eu calculei seu nome tem  ' + nome.length , ' letras. <br/>')
+        document.write('Seu nome em maiúsculas é  ' + nome.toLocaleUpperCase() , '. <br/>')
+        document.write('Seu nome em minúsculas é  ' + nome.toLocaleLowerCase() , ', <br/>')
+    var n1 = Number.parseInt(window.prompt('Digite um número : '))
+    var n2 = Number.parseInt(window.prompt('Digite outro número : '))
+    var s = n1 + n2
+window.alert('A soma dos valores é : ' + s)
+      </script>
+      <footer>
+        <h4>  </h4>
+      </footer>
+</body>
+</html>
