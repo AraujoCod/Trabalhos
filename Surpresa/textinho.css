@@ -1,0 +1,75 @@
+*{
+   
+    background-color: rgb(198, 202, 206);
+    font-family: 'Alkatra', cursive;
+}
+
+.navbar{
+    align-items: baseline;
+    flex-direction: column;
+    text-align: initial;
+    color: blueviolet;
+}
+.navp{
+    list-style-type: none;
+  }
+
+  .titulo1{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+
+
+.inicio{
+    border-radius: 10%;
+    padding: 2px;
+    color: blueviolet;
+    border-color: rgb(79, 42, 165);
+    margin-left: 9px;
+    padding: 6px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.textinho{
+    border-radius: 10%;
+    padding: 2px;
+    color: blueviolet;
+    border-color: rgb(79, 42, 165);
+    margin-left: 9px;
+    padding: 6px;
+}
+
+.fotosnossas{
+    border-radius: 10%;
+    padding: 2px;
+    color: blueviolet;
+    border-color: rgb(79, 42, 165);
+    margin-left: 9px;
+    padding: 6px;
+}
+
+.primeirop{
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+.segundop{
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+.rodape{
+    color: blueviolet;
+    width: 90%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
