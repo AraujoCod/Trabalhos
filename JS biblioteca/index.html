@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gerenciamento de Biblioteca</title>
+</head>
+<body>
+
+<h1>Minha Biblioteca</h1>
+
+<label for="livro">Nome do Livro:</label>
+<input type="text" id="livro">
+<button onclick="adicionarLivro()">Adicionar Livro</button>
+
+<ul id="listaLivros"></ul>
+
+<script>
+  function adicionarLivro() {
+    var nomeLivro = document.getElementById('livro').value;
+    if (nomeLivro !== '') {
+      var listaLivros = document.getElementById('listaLivros');
+      var novoLivro = document.createElement('li');
+      novoLivro.textContent = nomeLivro;        
+      listaLivros.appendChild(novoLivro);
+      document.getElementById('livro').value = '';
+    } else {
+      alert('Por favor, insira o nome do livro.');
+    }
+  }
+</script>
+
+</body>
+</html>
