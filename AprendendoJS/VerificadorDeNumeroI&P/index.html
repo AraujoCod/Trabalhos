@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impar ou Par ?</title>
+</head>
+<body>
+    <script>
+// Pedir para o usuário inserir um número e armazená-lo em uma variável
+let numero = prompt("Insira um número:");
+
+// Converter o valor inserido para um número inteiro
+numero = parseInt(numero);
+
+// Verificar se o número é par ou ímpar 
+if (!isNaN(numero)) {
+  if (numero % 2 === 0) {
+    console.log(`O número ${numero} é par.`);
+  } else {
+    console.log(`O número ${numero} é ímpar.`);
+  }
+} else {
+  console.log("Por favor, insira um número válido.");
+}
+    </script>
+</body>
+</html>
